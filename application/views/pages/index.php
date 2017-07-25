@@ -86,16 +86,13 @@
 <div class="divider"></div>
 	    <div class="row">
 	        <div class="col s6 offset-s3">
-    	      <div class="card">
+    	      <div class="card medium">
         	    <div class="card-image">
             	  <img src="<?= $images; ?>/Comics.jpg">
             	</div>
-              <div class="card-content">
-                <span class="card-title text-red">Wonder Woman Day</span>
-                <p>DC Comics is celebrating 3rd of June as Wonder Woman Day and It will be a chance for all the fans of comics in Kerala to come together, meet, greet and celebrate their love for the character.</p>
-			 	<ul>
-					 <li>Venue: Big Fat Momo,Ernakulam </li>
-					 <li>Time: 4.00 P.M </</li>
+              <div class="card-content large">
+                <span class="card-title text">Wonder Woman Day</span>
+                <p>DC Comics is celebrating <strong>3rd of June</strong> as Wonder Woman Day and It will be a chance for all the fans of comics in Kerala to come together, meet, greet and celebrate their love for the character at <strong>Big Fat Momo,Ernakulam</strong> from <strong>04:00 PM</strong></p>
 			  </div>
               <div class="card-action">
                 <a href="https://www.facebook.com/keralacomicsbrotherhood/">Kerala Comics Brotherhood</a>
