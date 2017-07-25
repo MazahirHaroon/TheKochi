@@ -92,11 +92,13 @@
             	</div>
               <div class="card-content">
                 <span class="card-title text-red">Wonder Woman Day</span>
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I  am convenient because I require little markup to use effectively.</p>
-              </div>
+                <p>DC Comics is celebrating 3rd of June as Wonder Woman Day and It will be a chance for all the fans of comics in Kerala to come together, meet, greet and celebrate their love for the character.</p>
+			 	<ul>
+					 <li>Venue: Big Fat Momo,Ernakulam </li>
+					 <li>Time: 4.00 P.M </</li>
+			  </div>
               <div class="card-action">
-                <a href="#">This is a link</a>
+                <a href="https://www.facebook.com/keralacomicsbrotherhood/">Kerala Comics Brotherhood</a>
               </div>
           	 </div>
             </div>
