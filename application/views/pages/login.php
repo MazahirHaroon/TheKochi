@@ -239,7 +239,7 @@ function logUser(data,status){
 
  function toreg(){
  	console.log("noo");
- 	window.location.replace("http://localhost/thekochi/#reg");
+ 	window.location.replace("https://thekochi.herokuapp.com/#reg");
  }
 
 

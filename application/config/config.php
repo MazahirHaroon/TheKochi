@@ -24,7 +24,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //$base_url = 'http://localhost/thekochi';
+<<<<<<< HEAD
 $base_url = 'https://thekochi.herokuapp.com';
+=======
+$base_url = 'https://thekochi.herokuapp.com/';
+>>>>>>> bd35d7827b4b163102c98c55f0e57aae6a617580
 $config['base_url'] = $base_url;
 $config['css'] = $base_url.'/assets/css';
 $config['js'] = $base_url.'/assets/js';
