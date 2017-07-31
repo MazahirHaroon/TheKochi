@@ -4,7 +4,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<<<<<<< HEAD
 <title>404 own pagePage Not Found</title>
+=======
+<title>404 cool mazu Page Not Found</title>
+>>>>>>> 72c70dead36b56beb65df03b6773d01a1b1c9113
 <style type="text/css">
 
 ::selection { background-color: #E13300; color: white; }

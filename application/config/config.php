@@ -23,8 +23,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+<<<<<<< HEAD
 $base_url = 'http://localhost/thekochi';
 //$base_url = 'https://thekochi.herokuapp.com/thekochi';
+=======
+//$base_url = 'http://localhost/thekochi';
+$base_url = 'http://thekochi.herokuapp.com/thekochi/';
+>>>>>>> 2e243f4a1d85ebf8e65217848b2ca855995ce3ac
 $config['base_url'] = $base_url;
 $config['css'] = $base_url.'/assets/css';
 $config['js'] = $base_url.'/assets/js';
