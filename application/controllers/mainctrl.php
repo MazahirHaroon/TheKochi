@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Mainctrl extends CI_Controller {
 	public function index(){
 		if($this->session->userdata('uid')){
-			     $data = $this->init->initPath('/accountctrl');
+			$data = $this->card->cData('/accountctrl');
 			$this->load->view('pages/index',$data);         
 	   }else{
 		$data = $this->init->initPath('/mainctrl');

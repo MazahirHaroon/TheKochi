@@ -78,52 +78,27 @@
 </nav>
 
 <!--content section-->
-
 <body>
 
 <div class="container">
- 
 <div class="divider"></div>
 	    <div class="row">
 	        <div class="col s6 offset-s3">
-    	      <div class="card medium">
+    	      <div class="card">
         	    <div class="card-image">
             	  <img src="<?= $images; ?>/Comics.jpg">
             	</div>
-              <div class="card-content large">
-                <span class="card-title text">Wonder Woman Day</span>
-                <p>DC Comics is celebrating <strong>3rd of June</strong> as Wonder Woman Day and It will be a chance for all the fans of comics in Kerala to come together, meet, greet and celebrate their love for the character at <strong>Big Fat Momo,Ernakulam</strong> from <strong>04:00 PM</strong></p>
-			  </div>
-              <div class="card-action">
-                <a href="https://www.facebook.com/keralacomicsbrotherhood/">Kerala Comics Brotherhood</a>
+              <div class="card-content">
+                <span class="card-title text-darken-4"><?php echo $cardh ?></span>
+                <p><?php echo $cardp ?></p>
+              </div>
+              <div class="card-action text-darken-4">
+                <a href="#">This is a link</a>
               </div>
           	 </div>
             </div>
         </div>
-
-		   
-<!-- 			<div class="card small">
-			<div class="card-image waves-effect waves-block waves-light">
-				<img class="activator" src="<?= $images; ?>/Comics.jpg">
-			</div>
-			<div class="card-content">
-			    <span class="card-title activator grey-text text-darken-4">Wonder Woman Day<i class="material-icons right">more_vert</i></span>
-			</div>
-	        <div class="card-reveal">
-	     	    <span class="card-title grey-text text-darken-4"><a href="https://www.facebook.com/keralacomicsbrotherhood/">Kerala Comics Brothehood</a><i class="material-icons right">close</i></span>
-			    <p>From the people who brought you the first Comic book Event in Kerala, comes an Event to Celebrate the 75th Year of Wonder Woman in Comics and her first appearance in Movies this year.
-				DC Comics is celebrating 3rd of June as Wonder Woman Day and It will be a chance for all the fans of comics in Kerala to come together, meet, greet and celebrate their love for the character.</p>
-				<ul>
-				<li>Venue : Big Fat Momo, Ernakulam </li>
-				<li>Time: 4.00 P.M.</li>
-				<li>Stay stuned to theKochi.com</li>
-				</ul>
-			</div>
-			</div> -->
-	<!-- 	</div> -->
-	
 	</div>
-          
 </div> <!--container-->
 </body>
 </html>

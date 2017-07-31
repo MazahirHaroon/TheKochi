@@ -6,12 +6,13 @@ class Init extends CI_Model {
         parent::__construct ();
     }
     function initPath ($contoller_path='') {
-        $data["base_url"] = $this->config->item ("base_url");
-        $data["css"]      = $this->config->item ("css");
-        $data["js"]       = $this->config->item ("js");
-        $data["images"]   = $this->config->item ("images");
-        $data["path"]     = $data["base_url"].$contoller_path;
-        $data["title"]    = "";
-        return $data;
+        $dat["base_url"] = $this->config->item ("base_url");
+        $dat["css"]      = $this->config->item ("css");
+        $dat["js"]       = $this->config->item ("js");
+        $dat["images"]   = $this->config->item ("images");
+        $dat["path"]     = $dat["base_url"].$contoller_path;
+        $dat["title"]    = "";
+        $dat["ff"] = "fffccd";
+        return $dat;
 	 }
 }
